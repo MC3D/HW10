@@ -30,7 +30,7 @@ $.getJSON("https://api.github.com/users/MC3D").done(function(item) {
 
           _.each(item, function(item) {
           userData.org_avatar = item.avatar_url;
-          userData.org_avatar_url = item.html_url;
+          userData.org_name = item.login;
         });
 
           renderTemplate('#header-user', '#header', userData);
