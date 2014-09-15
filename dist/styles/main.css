@@ -226,7 +226,7 @@ body {
     top: 40px;
     width: 70px; }
     #main-content .new-button a {
-      color: white;
+      color: #fff;
       text-decoration: none; }
     #main-content .new-button .octicon-repo {
       padding-right: 5px; }
@@ -234,6 +234,8 @@ body {
     border-bottom: solid 1px #e5e5e5;
     padding-bottom: 30px;
     padding-top: 28px; }
+  #main-content .repo-link {
+    text-decoration: none; }
   #main-content .reponame {
     color: #4183c4;
     font-size: 20px; }

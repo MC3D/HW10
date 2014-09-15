@@ -330,7 +330,7 @@ body {
     width: 70px;
 
     a {
-      color: white;
+      color: #fff;
       text-decoration: none;
     }
 
@@ -343,6 +343,10 @@ body {
     border-bottom: solid 1px #e5e5e5;
     padding-bottom: 30px;
     padding-top: 28px;
+  }
+
+  .repo-link {
+    text-decoration: none;
   }
 
   .reponame {
