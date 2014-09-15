@@ -227,6 +227,7 @@ body {
   }
 
   .tab-link {
+    color: #333;
     font-size: 15px;
     letter-spacing: -.4px;
     text-decoration: none;
@@ -319,6 +320,10 @@ body {
       padding-right: 4px;
       text-decoration: none;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   .new-button {
@@ -347,6 +352,10 @@ body {
 
   .repo-link {
     text-decoration: none;
+  }
+
+  .repo-link:hover {
+    text-decoration: underline;
   }
 
   .reponame {

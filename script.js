@@ -36,7 +36,7 @@ $.getJSON("https://api.github.com/users/MC3D").done(function(item) {
           renderTemplate('#header-user', '#header', userData);
           renderTemplate('#sidebar-user', '#sidebar', userData);
     });
-    });
+  });
 });
 
 
