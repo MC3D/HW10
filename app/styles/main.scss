@@ -254,15 +254,17 @@ body {
     border: solid 1px #e5e5e5;
     border-radius: 3px;
     display: inline-block;
-    position: relative;
   }
 
   .edit-button {
-    background-color: #fafafa;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc, #eee);
+
     height: 26px;
     width: 108px;
 
     a {
+      color: #333;
       font-size: 13px;
       font-weight: bold;
       text-decoration: none;
@@ -297,13 +299,15 @@ body {
   }
 
   .search-button {
-    background-color: #fafafa;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc, #eee);
     display: inline-block;
     height: 33px;
     top: 7px;
     width: 68px;
 
     a {
+      color: #333;
       font-weight: bold;
       text-decoration: none;
     }
@@ -333,7 +337,8 @@ body {
   }
 
   .new-button {
-    background-color: #64b448;
+    background-color: #64b048;
+    background-image: linear-gradient(#8add6d, #60b044);
     height: 36px;
     width: 70px;
 

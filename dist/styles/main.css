@@ -168,13 +168,14 @@ body {
   #main-content .button {
     border: solid 1px #e5e5e5;
     border-radius: 3px;
-    display: inline-block;
-    position: relative; }
+    display: inline-block; }
   #main-content .edit-button {
-    background-color: #fafafa;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc, #eee);
     height: 26px;
     width: 108px; }
     #main-content .edit-button a {
+      color: #333;
       font-size: 13px;
       font-weight: bold;
       text-decoration: none; }
@@ -197,12 +198,14 @@ body {
     vertical-align: middle;
     width: 244px; }
   #main-content .search-button {
-    background-color: #fafafa;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc, #eee);
     display: inline-block;
     height: 33px;
     top: 7px;
     width: 68px; }
     #main-content .search-button a {
+      color: #333;
       font-weight: bold;
       text-decoration: none; }
   #main-content #nav {
@@ -220,7 +223,8 @@ body {
     #main-content .content-nav a:hover {
       text-decoration: underline; }
   #main-content .new-button {
-    background-color: #64b448;
+    background-color: #64b048;
+    background-image: linear-gradient(#8add6d, #60b044);
     height: 36px;
     width: 70px; }
     #main-content .new-button a {
