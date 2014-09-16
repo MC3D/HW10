@@ -11,6 +11,8 @@
 
       <div id="header">
 
+        <div id="header-block"
+
         <a href="https://github.com/"><span class="mega-octicon octicon-mark-github"></span></a>
 
         <form class="search-box"><input class="input-text" type="text" placeholder="Search GitHub"></form>
@@ -22,9 +24,11 @@
           <li><a class="links" href="https://help.github.com/">Help</a></li>
         </ul>
 
+
+
         <script type='text/template' id="header-user">
           <ul id="links-right">
-            <li><a class="links avatar" href="<%= avatar_url %>"><img src="<%= avatar %>"><span class= align><%= username %></span></a></li>
+            <li><a class="links avatar" href="<%= avatar_url %>"><span class= align><img src="<%= avatar %>"> <%= username %></span></a></li>
             <li><a class="links align" href="https://github.com/<%= username %>"><span class="octicon octicon-plus"></span><span class="octicon octicon-triangle-down"></a></li>
             <li><a class="links align" href="https://github.com/notifications"><span class="octicon octicon-inbox"></span></a></li>
             <li><a class="links align" href="https://github.com/settings/profile"><span class="octicon octicon-gear"></span></a></li>
@@ -32,7 +36,10 @@
           </ul>
         </script>
 
+</div>
       </div>
+
+      <div id="page-container">
 
       <div id="sidebar">
         <script type='text/template' id="sidebar-user">
@@ -99,6 +106,7 @@
         </script>
 
     </div>
+  </div>
 
   <div id="footer-container">
     <div id=footer>

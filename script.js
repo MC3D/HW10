@@ -33,7 +33,7 @@ $.getJSON("https://api.github.com/users/MC3D").done(function(item) {
           userData.org_name = item.login;
         });
 
-          renderTemplate('#header-user', '#header', userData);
+          renderTemplate('#header-user', '#header-block', userData);
           renderTemplate('#sidebar-user', '#sidebar', userData);
     });
   });
