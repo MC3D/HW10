@@ -258,15 +258,19 @@ body {
   color: #777;
   font-size: 12px;
   line-height: 1.5;
-  margin-top: 40px;
-  padding: 40px 0;
-  text-align: center; }
+  margin: 40px auto 0 auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+  width: 977px; }
+  #footer .footer-icon {
+    margin-left: 235px;
+    margin-right: 140px; }
   #footer .mega-octicon {
     color: #ccc;
     display: inline-block;
     font-size: 24px;
-    left: 50%;
-    margin-left: -12px; }
+    left: 50%; }
   #footer .mega-octicon:hover {
     color: #bbb; }
   #footer li {
