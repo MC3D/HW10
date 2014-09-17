@@ -347,7 +347,7 @@ body {
   }
 
   .new-button {
-    background-color: #64b048;
+    background-color: #64b044;
     background-image: linear-gradient(#8add6d, #60b044);
     height: 36px;
     margin-left: 5px;
@@ -364,8 +364,9 @@ body {
     }
   }
 
-  new-button:hover {
-
+  .new-button:hover {
+    background-color: #569e3d;
+    background-image: linear-gradient(#79d858, #569e3d);
   }
 
   #repo-list {
