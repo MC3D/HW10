@@ -18,9 +18,7 @@ $.getJSON("https://api.github.com/users/MC3D").done(function(item) {
       name: item.name,
       memberSince: moment(item.created_at).format("MMM DD, YYYY"),
       followers: item.followers,
-      followers_url: item.followers_url,
       following: item.following,
-      following_url: item.following_url
   };
 
     $.getJSON("https://api.github.com/users/MC3D/starred").done(function(item) {

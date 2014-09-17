@@ -48,9 +48,9 @@
               <li class="name"><%= name %></li>
               <li class="username"><%= username %></li>
               <li class="date"><span class="octicon octicon-clock"></span>Joined on <%= memberSince %></li>
-              <li class="stats"><a class="count" href="<%= followers_url %>"><%= followers %><p>Follower</p></a></li>
-              <li class="stats"><a class="count" href="#"><%= starred %><p>Starred</p></a></li>
-              <li class="stats"><a class="count" href="<%= following_url %>"><%= following %><p>Following</p></a></li>
+              <li class="stats"><a class="count" href="https://github.com/<%= username %>/followers"><%= followers %><p>Follower</p></a></li>
+              <li class="stats"><a class="count" href="https://github.com/stars/<%= username %>"><%= starred %><p>Starred</p></a></li>
+              <li class="stats"><a class="count" href="https://github.com/<%= username %>/following"><%= following %><p>Following</p></a></li>
               <li><p class="org-header">Organizations</p></li>
               <li class="org"><a href="https://github.com/<%= org_name %>"><img class="org-img" src="<%= org_avatar %>"></a></li>
             </ul>

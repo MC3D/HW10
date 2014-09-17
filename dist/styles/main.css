@@ -34,7 +34,7 @@ body {
       font-size: 12px;
       margin-left: 6px;
       margin-right: 16px;
-      padding: 4.25px 6px 5.5px 7.5px;
+      padding: 5.5px 6px 5.5px 7.5px;
       vertical-align: middle;
       width: 345px; }
   #header #links-left {
@@ -72,9 +72,11 @@ body {
   #header .octicon-inbox {
     font-size: 20px; }
   #header .octicon-triangle-down {
-    font-size: 10px; }
+    font-size: 10px;
+    vertical-align: sub; }
   #header .octicon-plus {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-right: 2px; }
 
 #page-container {
   margin: 0 auto;
