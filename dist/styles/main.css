@@ -14,8 +14,9 @@ body {
   padding-bottom: 10.5px;
   padding-top: 9.5px; }
   #header #header-block {
-    margin: 0 auto;
-    text-align: center; }
+    margin: 0 auto 0 227px;
+    text-align: left;
+    width: 1100px; }
   #header .mega-octicon {
     color: #333;
     font-size: 28px;
@@ -32,17 +33,18 @@ body {
       box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
       font-size: 12px;
       margin-left: 6px;
-      margin-right: 14px;
+      margin-right: 16px;
       padding: 4.25px 6px 5.5px 7.5px;
       vertical-align: middle;
-      width: 344px; }
+      width: 345px; }
   #header #links-left {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 168px; }
   #header #links-right {
     display: inline-block;
     vertical-align: super; }
     #header #links-right .links {
-      padding-right: 15px; }
+      padding-right: 16px; }
   #header li {
     display: inline-block;
     list-style: none; }
@@ -147,13 +149,14 @@ body {
 #main-content {
   display: inline-block;
   margin-top: 28px;
-  text-align: -webkit-left;
-  width: 730px; }
+  text-align: -webkit-left; }
   #main-content #tabs {
     border-bottom: solid 2px #f4f4f4;
+    display: inline-block;
     height: 25px;
     list-style: none;
-    padding-left: 13px; }
+    padding-left: 13px;
+    padding-right: 340px; }
     #main-content #tabs li {
       display: inline-block;
       margin-right: 25px; }
@@ -164,6 +167,8 @@ body {
     text-decoration: none; }
     #main-content .tab-link span {
       padding-right: 4px; }
+  #main-content .tab-link:hover {
+    border: solid 2px #f4f4f4; }
   #main-content .button {
     border: solid 1px #e5e5e5;
     border-radius: 3px;
@@ -172,6 +177,9 @@ body {
     background-color: #eee;
     background-image: linear-gradient(#fcfcfc, #eee);
     height: 26px;
+    margin-left: 623px;
+    position: absolute;
+    top: 68px;
     width: 108px; }
     #main-content .edit-button a {
       color: #333;
@@ -199,19 +207,19 @@ body {
   #main-content .search-button {
     background-color: #eee;
     background-image: linear-gradient(#fcfcfc, #eee);
-    display: inline-block;
-    height: 33px;
-    top: 7px;
-    width: 68px; }
+    height: 34px;
+    width: 68px;
+    vertical-align: bottom; }
     #main-content .search-button a {
       color: #333;
       font-weight: bold;
       text-decoration: none; }
   #main-content #nav {
     display: inline-block;
-    margin-left: 31px; }
+    margin-left: 31px;
+    vertical-align: bottom; }
   #main-content .content-nav {
-    bottom: 10px;
+    bottom: 7px;
     display: inline-block;
     position: relative; }
     #main-content .content-nav a {
@@ -225,6 +233,8 @@ body {
     background-color: #64b048;
     background-image: linear-gradient(#8add6d, #60b044);
     height: 36px;
+    margin-left: 5px;
+    vertical-align: bottom;
     width: 70px; }
     #main-content .new-button a {
       color: #fff;
@@ -256,21 +266,24 @@ body {
 #footer {
   border-top: solid 1px #eee;
   color: #777;
-  font-size: 12px;
-  line-height: 1.5;
-  margin: 40px auto 0 auto;
+  line-height: 22px;
+  margin: 40px auto 0;
   padding-bottom: 40px;
-  padding-top: 40px;
+  padding-top: 38px;
   text-align: center;
-  width: 977px; }
+  width: 985px; }
   #footer .footer-icon {
+    left: 708px;
+    line-height: 20px;
     margin-left: 235px;
-    margin-right: 140px; }
+    margin-right: 140px;
+    position: absolute; }
   #footer .mega-octicon {
     color: #ccc;
     display: inline-block;
     font-size: 24px;
-    left: 50%; }
+    left: 707px;
+    position: absolute; }
   #footer .mega-octicon:hover {
     color: #bbb; }
   #footer li {
@@ -278,7 +291,8 @@ body {
     list-style: none; }
   #footer #footer-links-left {
     display: inline-block;
-    letter-spacing: -0.45px; }
+    letter-spacing: -0.45px;
+    margin-right: 403px; }
   #footer #footer-links-right {
     display: inline-block;
     letter-spacing: -0.45px; }
