@@ -282,6 +282,13 @@ body {
 
   }
 
+  .edit-button:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(#eee, #ddd);
+    background-image: -o-linear-gradient(#eee, #ddd);
+    background-image: linear-gradient(#eee, #ddd);
+  }
+
   .octicon-pencil {
     color: #333;
     margin: 2px 3px 0 0;
@@ -321,6 +328,13 @@ body {
       text-decoration: none;
     }
   }
+
+  .search-button:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(#eee, #ddd);
+    background-image: -o-linear-gradient(#eee, #ddd);
+    background-image: linear-gradient(#eee, #ddd);
+    }
 
   #nav {
     display: inline-block;
