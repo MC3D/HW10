@@ -20,7 +20,7 @@ body {
 
 
   #header-block {
-    margin: 0 auto 0 227px;
+    margin: 0 auto 0 189px;
     text-align: left;
     width: 1100px;
   }
@@ -236,7 +236,7 @@ body {
     height: 25px;
     list-style: none;
     padding-left: 13px;
-    padding-right:   340px;
+    padding-right: 340px;
 
     li {
       display: inline-block;
@@ -396,7 +396,9 @@ body {
   }
 
   .repo-link:hover {
+    color: #4183c4;
     text-decoration: underline;
+    text-decoration-color: #4183c4;
   }
 
   .reponame {
@@ -417,6 +419,26 @@ body {
     font-weight: bold;
     margin-left: 2px;
     margin-top: 7px;
+  }
+
+  .blue:hover {
+    color: #4183c4;
+  }
+
+  .repoforks {
+    margin-left: 4px;
+  }
+
+  .octicon-git-branch {
+    margin-left: 12px;
+  }
+
+  .repostargazers {
+    margin-left: 4px;
+  }
+
+  .octicon-star {
+    margin-left: 12px;
   }
 }
 
