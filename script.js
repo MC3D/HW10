@@ -47,7 +47,8 @@ $.getJSON("https://api.github.com/users/MC3D/repos").done(function(item) {
         language: item.language,
         stargazers: item.stargazers_count,
         forks: item.forks,
-        repoUrl: item.html_url
+        repoUrl: item.html_url,
+        fullName: item.full_name
     };
 
     renderTemplate('#repo-data', '#main-content', repoData);

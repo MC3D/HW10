@@ -96,10 +96,14 @@
         <script type='text/template' id="repo-data">
           <div id="repo-list">
               <a class="repo-link" href="<%= repoUrl %>"><span class="reponame"><%= name %></span></a>
-              <span class="report repoforks"><%= forks %></span>
-              <span class="report octicon octicon-git-branch"></span>
-              <span class="report repostargazers"><%= stargazers %></span>
-              <span class="report octicon octicon-star"></span>
+              <a href = "https://github.com/<%= fullName %>/network">
+                <span class="report repoforks"><%= forks %></span>
+                <span class="report octicon octicon-git-branch"></span>
+              </a>
+              <a href = "https://github.com/<%= fullName %>/stargazers">
+                <span class="report repostargazers"><%= stargazers %></span>
+                <span class="report octicon octicon-star"></span>
+              </a>
               <span class="report repolanguage"><%= language %></span>
               <p class="repoupdated">Updated <%= updated %></p>
             </div>
